@@ -1,0 +1,9 @@
+id;angka
+email;
+name;varchar
+password;
+address;
+role;
+status;varchar
+created_at;
+updated_at;

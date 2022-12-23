@@ -1,0 +1,8 @@
+"id","angka"
+user_id,integer
+code,varchar
+name,varchar
+slug,varchar
+status,varchar
+photo,varchar
+description,longtest
