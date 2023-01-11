@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HappyDayShopping" time="109.919" tests="1" failures="0" errors="0">
+   <testsuite name="HappyDayShopping" tests="1" failures="0" errors="0" time="109.919" skipped="0" timestamp="2023-01-11 10:57:56" hostname="dell - DESKTOP-LRCGMG7" id="Test Suites/HappyDayShopping">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (AOSP on IA Emulator - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Final Project\\Reports\\20230111_105741\\HappyDayShopping\\20230111_105741"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Final Project\\Reports\\20230111_105741\\HappyDayShopping\\20230111_105741\\appium.log, C:\\Users\\dell\\Katalon Studio\\Final Project\\Reports\\20230111_105741\\HappyDayShopping\\20230111_105741\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dell - DESKTOP-LRCGMG7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="AOSP on IA Emulator"/>
+         <property name="hostAddress" value="192.168.0.243"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (AOSP on IA Emulator - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/HappyDay3" time="109.434" classname="Test Cases/HappyDay3" status="PASSED">
+         <system-out><![CDATA[2023-01-11 10:57:56 - [TEST_CASE][PASSED] - Test Cases/HappyDay3: Test Cases/HappyDay3
+
+2023-01-11 10:57:57 - [TEST_STEP][PASSED] - startApplication("C:\Users\dell\Katalon Studio\Final Project\MobileTest\HappyDayShopping1.apk", true): Started app at: 'C:\Users\dell\Katalon Studio\Final Project\MobileTest\HappyDayShopping1.apk'
+
+2023-01-11 10:57:58 - [MESSAGE][INFO] - Detected NodeJS location: "D:\App\Node\node.exe"
+
+2023-01-11 10:58:00 - [MESSAGE][INFO] - Appium server started on port 53,131
+
+2023-01-11 10:58:35 - [MESSAGE][PASSED] - Started app at: 'C:\Users\dell\Katalon Studio\Final Project\MobileTest\HappyDayShopping1.apk'
+
+2023-01-11 10:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Folder3/FlashSale_button"), 0): Tapped on element 'Object Repository/Folder3/FlashSale_button'
+
+2023-01-11 10:58:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:58:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Folder3/FlashSale_button'
+
+2023-01-11 10:58:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Folder3/Product_button"), 0): Tapped on element 'Object Repository/Folder3/Product_button'
+
+2023-01-11 10:58:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Folder3/Product_button'
+
+2023-01-11 10:59:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Folder3/Quantity1_button"), 0): Element 'Object Repository/Folder3/Quantity1_button' text is cleared
+
+2023-01-11 10:59:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:10 - [MESSAGE][PASSED] - Element 'Object Repository/Folder3/Quantity1_button' text is cleared
+
+2023-01-11 10:59:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Folder3/Quantity5_button"), "5", 0): Text '5' has been set to element 'Object Repository/Folder3/Quantity5_button'
+
+2023-01-11 10:59:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:14 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Folder3/Quantity5_button'
+
+2023-01-11 10:59:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Folder3/AddtoBag_button"), 0): Tapped on element 'Object Repository/Folder3/AddtoBag_button'
+
+2023-01-11 10:59:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Folder3/AddtoBag_button'
+
+2023-01-11 10:59:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Folder3/CheckProduct_button"), 0): Tapped on element 'Object Repository/Folder3/CheckProduct_button'
+
+2023-01-11 10:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Folder3/CheckProduct_button'
+
+2023-01-11 10:59:19 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Folder3/AssertProduct_button"), 0): Text of element 'Object Repository/Folder3/AssertProduct_button' is: 'Promo -  Palabok Pack'
+
+2023-01-11 10:59:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/Folder3/AssertProduct_button' is: 'Promo -  Palabok Pack'
+
+2023-01-11 10:59:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Folder3/Checkout_button"), 0): Tapped on element 'Object Repository/Folder3/Checkout_button'
+
+2023-01-11 10:59:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Folder3/Checkout_button'
+
+2023-01-11 10:59:23 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Folder3/AssertBag_button"), 0): Text of element 'Object Repository/Folder3/AssertBag_button' is: 'https://www.happydayshopping.com/products/cart'
+
+2023-01-11 10:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-11 10:59:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/Folder3/AssertBag_button' is: 'https://www.happydayshopping.com/products/cart'
+
+2023-01-11 10:59:39 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-01-11 10:59:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-01-11 10:59:44 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-01-11 10:59:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-11 10:57:56 - [TEST_SUITE][PASSED] - HappyDayShopping: Test Cases/HappyDay3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
