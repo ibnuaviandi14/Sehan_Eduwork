@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HappyDayShopping,,,,2023-01-11 10:57:56,2023-01-11 10:59:46,1m - 49.919s,PASSED
+,,,,,,,
+Test Cases/HappyDay3,,,,2023-01-11 10:57:56,2023-01-11 10:59:46,1m - 49.434s,PASSED
+"startApplication(""C:\Users\dell\Katalon Studio\Final Project\MobileTest\HappyDayShopping1.apk"", true)",,,,2023-01-11 10:57:57,2023-01-11 10:58:35,37.935s,PASSED
+"tap(findTestObject(""Object Repository/Folder3/FlashSale_button""), 0)",,,,2023-01-11 10:58:35,2023-01-11 10:58:49,13.555s,PASSED
+"tap(findTestObject(""Object Repository/Folder3/Product_button""), 0)",,,,2023-01-11 10:58:49,2023-01-11 10:59:02,13.811s,PASSED
+"clearText(findTestObject(""Object Repository/Folder3/Quantity1_button""), 0)",,,,2023-01-11 10:59:02,2023-01-11 10:59:10,7.883s,PASSED
+"setText(findTestObject(""Object Repository/Folder3/Quantity5_button""), ""5"", 0)",,,,2023-01-11 10:59:10,2023-01-11 10:59:14,3.414s,PASSED
+"tap(findTestObject(""Object Repository/Folder3/AddtoBag_button""), 0)",,,,2023-01-11 10:59:14,2023-01-11 10:59:16,2.221s,PASSED
+"tap(findTestObject(""Object Repository/Folder3/CheckProduct_button""), 0)",,,,2023-01-11 10:59:16,2023-01-11 10:59:19,3.240s,PASSED
+"getText(findTestObject(""Object Repository/Folder3/AssertProduct_button""), 0)",,,,2023-01-11 10:59:19,2023-01-11 10:59:21,1.768s,PASSED
+"tap(findTestObject(""Object Repository/Folder3/Checkout_button""), 0)",,,,2023-01-11 10:59:21,2023-01-11 10:59:23,1.705s,PASSED
+"getText(findTestObject(""Object Repository/Folder3/AssertBag_button""), 0)",,,,2023-01-11 10:59:23,2023-01-11 10:59:39,16.158s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-01-11 10:59:39,2023-01-11 10:59:44,5.065s,PASSED
+closeApplication(),,,,2023-01-11 10:59:44,2023-01-11 10:59:46,2.058s,PASSED
